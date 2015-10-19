@@ -1,0 +1,14 @@
+{
+  "name": "Code LGTM",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Emoji for Code",
+  "icons": {"128": "icon_128.png" },
+  "content_scripts": [
+    {
+      "matches" : ["http://github.intra.douban.com/*", "https://github.com/*"],
+      "css": ["css/main.css"],
+      "js": ["js/jquery.js", "js/main.js", "js/bootstrap.min.js"]
+    }
+  ]
+}

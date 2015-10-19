@@ -1,0 +1,11 @@
+.code-emoji{
+    float:right;
+}
+.code-emoji .tabnav-extra img {
+    cursor: pointer;
+}
+.code-emoji .emoji{
+    height: 18px;
+    width: 25px;
+    float: left;
+}
